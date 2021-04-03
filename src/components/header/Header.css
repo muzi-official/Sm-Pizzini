@@ -1,0 +1,118 @@
+
+
+/* Header Start  */
+.header{
+  width: 100% !important;
+  z-index: 20;
+  background:rgb(73, 72, 72);
+  border-bottom: 1px solid rgb(214, 147, 147);
+  top: 0 !important;
+  padding: 0 0 8px 0;
+  display: flex;
+}
+
+.left-header span{
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 900 !important;
+}
+
+.left-header h3{
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(233, 111, 111);
+}
+
+.left-header h4{
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 3px;
+  padding: 5px;
+  color: rgb(240, 240, 240);
+}
+
+
+.fa-external-link-alt{
+  margin-left: 20px !important;
+  text-align: center;
+  font-size: 14px;
+color: rgb(201, 185, 185);
+ }
+ 
+
+
+.center-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.center-header .selectpicker{
+    margin-top: 10px;
+  border: none;
+  height: 35px;
+  border-radius: 2px;
+    outline: none !important;
+background-color:  #e64949 !important;
+  color: #fff !important;
+  margin-left: 10px;
+}
+.center-header .selectpicker:hover{
+  border: none !important;
+  outline: none !important;
+}
+
+
+.center-header .selectpicker option {
+    border-radius: 2px;
+background-color: #e64949 !important;
+  color: #fff !important;
+}
+
+
+.selectpicker  option:active , .selectpicker  option:focus {
+  background: transparent !important;
+      box-shadow: 0 0 10px 100px  #e64949 !important;
+  background-color:  #e64949 !important;
+}
+
+
+
+.center-header button{
+    margin-top: 10px;
+    height: 35px;
+  background-color:  #e64949 !important;
+ border-radius: 2px !important;
+ color: #fff !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 16px !important;
+  outline: none !important;
+}
+
+.center-header button a , .center-header button a i {
+   color: #fff !important;
+   font-size: 14px;
+   text-decoration: none !important;
+
+}
+
+
+.right-header .login{
+  font-weight: 400;
+  border-bottom: 2px solid #e64949;;
+  margin-top: 8px;
+  color: #ffffff !important;
+
+}
+
+
+.fa-chevron-down {
+  transform: rotate(180deg);
+  color: #fff !important;
+}
+.fa-heart {
+  color: #fff !important;
+}
+
+/* Header Closed  */

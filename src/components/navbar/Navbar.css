@@ -1,0 +1,79 @@
+
+.navbar{
+  opacity: 0.8;
+  padding: 2px 0 0 2px !important;
+  margin: -10 0 -10 0 !important;
+  background: rgb(0, 0, 0) !important;
+}
+
+.navbar .pizzini_logo{
+  color: #fcfcfc !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+}
+.navbar .navbar-brand {
+  border-bottom: 4px solid #e64949;
+  color: #e64949 !important;
+  font-size: 30px;
+  font-weight: 900;
+  z-index: 9999999;
+}
+
+.navbar-nav li  a{
+  margin: 5px !important;
+  font-size: 16px !important;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+.navbar-nav li  a i{
+    font-size: 8px !important;
+}
+
+
+.navbar-nav a:hover {
+  border-radius: 4px;
+  width: auto !important;
+  transition: .1s;
+background: #e64949 !important;
+}
+
+.navbar-toggler-icon{
+  color: #e64949 !important;
+  outline : none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.dropdown a:active , .dropdown a:focus{
+  background: none !important;
+}
+.navbar-toggler{
+  color: #e64949 !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline : none !important;
+}
+
+.navbar-toggler:focus{
+  color: #e64949 !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler:active{
+    color: #e64949 !important;
+  box-shadow: none !important;
+  border: 1ps solid #000 !important;
+  outline: none !important;
+}
+
+
+.dropdown-menu {
+width: auto;
+background: #e64949 !important;
+color: #e64949 !important;
+}
+.dropdown-menu:hover , .dropdown-menu:active , .dropdown-menu:focus{
+ box-shadow: none !important;
+ background: #e64949 !important; 
+}

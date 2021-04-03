@@ -1,0 +1,31 @@
+
+
+/* Footer Area  */ 
+footer{
+  color: #fff;
+background: #343a40;
+  border-bottom: 1px solid rgb(214, 147, 147);
+}
+
+
+footer h5{
+    font-size: 18px !important;
+}
+
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+footer a:hover{
+  color: tomato;
+}
+
+footer a i {
+  margin: 7px;
+  font-size: 16px;
+}
+  /* Footer Area  */ 
+

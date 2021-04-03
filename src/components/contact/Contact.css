@@ -1,0 +1,142 @@
+.contact-section{
+  padding: 20px;
+   	background-color: #EBECF0;  
+}
+
+
+.contact{
+margin-top: 70px;
+padding-bottom: 40px;
+}
+
+.contact .left{
+    justify-content: left;
+    text-align: justify;
+}
+
+.contact .left h3{
+text-align: justify;
+font-weight: 600px;
+color: rgb(110, 105, 105);
+}
+
+
+.contact .left h1{
+text-align: justify;
+font-weight: bolder !important;
+font-size: 28px;
+}
+
+.contact .left h1 span{
+font-weight: bolder !important;
+font-size: 30px;
+}
+
+
+.contact .left p{
+text-align: justify;
+color: #000;
+font-size: 18px;
+}
+
+.contact .contact-btn{
+  font-size: 18px;
+    margin-top: 15px;
+    color: #fff;
+       border-radius: 10px;
+    background:  #e64949;
+}
+
+.contact .right{
+    display: flexbox;
+    justify-content: center;
+padding: 20px;
+}
+
+
+.contact .right img{
+    border-radius: 10px;
+}
+
+.contact .col-md-4{
+    margin-top: 40px!important;
+}
+
+.contact input{ 
+  margin-top: 20px;
+ 	border:0;  
+	outline: 0; 
+  padding: 10px;  	
+  font-size: 17px;
+ text-shadow: 1px 1px 0 #fff;  
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff; 
+ } 
+
+ .contact .selectpicker{
+   outline: none !important;
+   box-shadow: none !important;
+   border: none !important;
+   margin-top: 20px;
+   height: 40px;
+   width: 100%;
+   margin-top: 20px;
+ 	border: 0;
+   border-radius: 5px;  
+ text-shadow: 1px 1px 0 #fff !important;  
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #fff !important;
+   outline: 0; 
+  
+ }
+
+ .contact .selectpicker:hover , .contact .selectpicker:active , .contact .selectpicker:focus{
+    box-shadow: none !important;
+       outline: none !important;
+      box-shadow: inset 1px 2px 2px #BABECC, inset -1px -1px 2px #fff; 
+   border: none !important;
+ }
+
+.contact input:focus{  	
+  box-shadow: inset 1px 2px 2px #BABECC, inset -1px -1px 2px #fff; 
+ } 
+
+
+
+ .contact .selectpicker .opt_main ,  .contact .selectpicker .opt_main:hover ,  .contact .selectpicker .opt_main:active ,  .contact .selectpicker .opt_main:focus {
+   background-color: #e64949 !important;
+   box-shadow: none !important;
+   color: #fff !important;
+     box-shadow: inset 1px 2px 2px #BABECC, inset -1px -1px 2px #fff; 
+ }
+
+
+ @media only screen and (max-width: 600px) {
+ .contact .selectpicker .opt_main ,  .contact .selectpicker .opt_main:hover ,  .contact .selectpicker .opt_main:active ,  .contact .selectpicker .opt_main:focus {
+      background: none !important;
+  background-color: #e64949 !important;
+   box-shadow: none !important;
+   color: #fff !important;
+     box-shadow: inset 1px 2px 2px #BABECC, inset -1px -1px 2px #fff; 
+ }
+
+}
+@media only screen and (max-width: 1200px) {
+ .contact .selectpicker .opt_main ,  .contact .selectpicker .opt_main:hover ,  .contact .selectpicker .opt_main:active ,  .contact .selectpicker .opt_main:focus {
+   background: none !important;
+  background-color: #e64949 !important;
+   box-shadow: none !important;
+   color: #fff !important;
+     box-shadow: inset 1px 2px 2px #BABECC, inset -1px -1px 2px #fff; 
+ }
+
+}
+
+@media only screen and (max-width: 300px) {
+ .contact .selectpicker .opt_main ,  .contact .selectpicker .opt_main:hover ,  .contact .selectpicker .opt_main:active ,  .contact .selectpicker .opt_main:focus {
+     background: none !important;
+  background-color: #e64949 !important;
+   box-shadow: none !important;
+   color: #fff !important;
+     box-shadow: inset 1px 2px 2px #BABECC, inset -1px -1px 2px #fff; 
+ }
+
+}

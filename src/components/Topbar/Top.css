@@ -1,0 +1,27 @@
+
+/* Top Button */
+#mybtn {
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  position: fixed;
+  text-decoration: none;
+  top: -50px;
+  transition: top 0.5s;
+  height: 40px;
+  width: 140px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+  box-shadow: #5a4d4d;
+  color: #000000b6;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20px;
+  z-index: 99999999;
+}
+/* Top Button */
+
